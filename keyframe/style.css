@@ -1,0 +1,16 @@
+.red{
+    width: 220px;
+    height: 220px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease;
+    animation-direction:alternate-reverse;
+    animation-delay: 2s;
+}
+@keyframes mymove{
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}

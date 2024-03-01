@@ -1,0 +1,42 @@
+button{
+    background-color: cyan;
+    color: black;
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    margin: 20px;
+}
+#button-2:hover{
+    background-color: antiquewhite;
+    color: rgb(241, 231, 231);
+}
+#button-2 {
+    transition-property: color;
+    transition-duration: 2s;   
+  }
+.mov{
+    transition-property: translate();
+    transition-duration: 5s;   
+}
+ 
+.mov:hover{
+    transform: translate(900px,0);
+}
+#button-2{
+    transition-timing-function: ease;
+}
+#button-3{
+    transition-timing-function: linear;
+}
+#button-4{
+    transition-timing-function: ease-in;
+}
+#button-5{
+    transition-timing-function: ease-out;
+}
+#button-6{
+    transition-timing-function: ease-in-out;
+}
